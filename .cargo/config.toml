@@ -1,0 +1,7 @@
+[build]
+
+# Generic modern x86-64 build
+rustflags = ["-C", "target-cpu=x86-64-v3"]
+
+# Native build on local machine
+# rustflags = ["-C", "target-cpu=native"]

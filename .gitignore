@@ -1,0 +1,56 @@
+# Rust build artifacts
+
+/target/
+**/*.rs.bk
+
+# Local Cargo configuration
+
+.cargo/*.local.toml
+
+# Python cache
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+
+.venv/
+venv/
+env/
+
+# Python build artifacts
+
+build/
+dist/
+*.egg-info/
+
+# Test / coverage
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checkers / linters
+
+.mypy_cache/
+.ruff_cache/
+
+# Environment / secrets
+
+.env
+.env.*
+
+# Logs
+
+*.log
+
+# IDE / editor
+
+.idea/
+.vscode/
+
+# OS files
+
+.DS_Store
+Thumbs.db
