@@ -1,6 +1,6 @@
 maturin develop --release<br>
 
-# Lustro Audit Code
+# Lustro Audit
 
 ## Clone
 
