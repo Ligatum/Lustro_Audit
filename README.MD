@@ -5,6 +5,5 @@ maturin develop --release<br>
 ## Clone
 
 ```bash
-git clone --filter=blob:none --sparse https://github.com/Ligatum/Lustro.git
-cd Lustro
-git sparse-checkout set TESTS/LUSTRO_AUDIT_CODE
+git clone https://github.com/Ligatum/Lustro_Audit.git
+cd Lustro_Audit
