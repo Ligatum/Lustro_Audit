@@ -10,7 +10,7 @@ cd Lustro_Audit
 ## Build
 
 ```bash
-# Pure Rust
+# Rust
 maturin develop --release
 ```
 
