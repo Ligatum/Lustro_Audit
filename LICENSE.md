@@ -1,10 +1,3 @@
-FAQ extract for clarity below.
----
-**Most developers never need a Commercial License.**  
-You are generally free to use Lustro in your own software, including commercial products and SaaS. A Commercial License is only required if you want to distribute Lustro itself as a reusable development technology, commercially exploit hardware implementations, or obtain a specific licensing exception.
-
----
-
 **Ligatum Technology License (LTL) 1.0**
 
 Copyright © 2026 Ligatum. All rights reserved.
