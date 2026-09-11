@@ -15,4 +15,4 @@ maturin develop --release
 
 ## Testing and Validation
 
-The repo contains **Lustro_Binary_Validator.py** and **Lustro_V1_General_Tests_Premiere.py**.
+The repo in an internal, reproducible audit and contains **Lustro_Binary_Validator.py** and **Lustro_V1_General_Tests_Premiere.py**.
