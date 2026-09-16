@@ -2599,7 +2599,7 @@ class LustroAuditSuite:
             print(f"  [!]  weak concentration trend  "
                   f"(r={spearman_r:+.4f})")
         else:
-            print(f"  [OK] no systematic entropy loss trend")
+            print(f"  [OK] no increasing entropy-loss trend detected")
 
         # VERDICT
         any_fail_b32e = (not sanity_ok) or cp_any_fail or trend_fail
