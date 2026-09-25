@@ -234,6 +234,14 @@ fn next_u32_lane_impl(ctx_ptr: *mut LustroPrngContext, lane: u8) -> u32 {
 /// `ctx_ptr` must be null or a valid pointer returned by `lustro_prng_create`
 /// and not yet passed to `lustro_prng_free`.
 #[no_mangle]
+pub unsafe extern "C" fn lustro_prng_next_u32_lane0(ctx_ptr: *mut LustroPrngContext) -> u32 {
+    next_u32_lane_impl(ctx_ptr, 0)
+}
+
+/// # Safety
+/// `ctx_ptr` must be null or a valid pointer returned by `lustro_prng_create`
+/// and not yet passed to `lustro_prng_free`.
+#[no_mangle]
 pub unsafe extern "C" fn lustro_prng_next_u32_lane1(ctx_ptr: *mut LustroPrngContext) -> u32 {
     next_u32_lane_impl(ctx_ptr, 1)
 }
